@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@master
-- uses: matt-ball/newman-action@master
+     - uses: matt-ball/newman-action@master
   with:
-    collection: postman_collection.json
-    environment: postman_environment.json
+        collection: githubActionPractice/docs/postman/practice.postman_collection.json
+      environment: githubActionPractice/docs/postman/practice.postman_collection.json
